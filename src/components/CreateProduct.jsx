@@ -12,6 +12,8 @@ export default function CreateProduct() {
     e.preventDefault();
     dispatch(create(prouduct))
 
+
+    
   };
   return (
 
