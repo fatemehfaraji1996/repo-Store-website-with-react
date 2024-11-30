@@ -5,6 +5,7 @@ import './App.css'
 
 import CreateProduct from './components/CreateProduct'
 import ProductList from './components/productList'
+import BasketList from './components/BasketList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <h2 className='bg-gray-500'>SHOP</h2>
       <CreateProduct/>
       <ProductList/>
+      <BasketList/>
     </>
   )
 }
